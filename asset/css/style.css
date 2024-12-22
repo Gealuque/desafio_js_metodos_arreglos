@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(217, 210, 210);
+}
+
+.linea{
+    border: 0.5px solid rgb(130, 126, 126);
+    width: 655px; 
+}
+.barra{
+    width: 550px;
+    height: 22px;
+}
+
+.boton{
+    color: white;
+    background-color: rgb(23, 156, 23);
+    font-size: medium;
+    width: 85px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.min_box{
+    display: flex;
+}
+.totalizador{
+    width: 30%;
+    padding-top:20px;
+}
+
+
+.listado_tareas{
+    padding-top: 20px;
+    width: 70%;
+}
+
+.li_edit{
+    list-style-type: none;
+}
+.btn_2{
+    color: red;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+}
+
+.subtitulos{
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+
+ul, h4 {
+    margin: 1px;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}

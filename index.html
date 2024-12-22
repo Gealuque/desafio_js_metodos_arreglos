@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>Metodo de Arreglos</title>
+</head>
+<body>
+    <section id="box" class="contenedor">
+        <h2>Lista de Tareas</h2>
+        <div class="linea"></div>
+        <p>Nueva Tarea</p>
+        <div>
+            <input type="text" id="nuevaTarea" class="barra">
+            <button id="agregarTarea" class="boton">Agregar</button>
+
+        </div>
+        <div class="min_box">
+            <div class="totalizador">
+                <span class="totales"> Total: </span><span id="totalGlobal"> </span>
+                <br>
+                <span class="total_realizada"> Total Realizadas: </span><span id="totalRealizada"> </span>
+            </div>
+                <div class="listado_tareas">
+                    <h4 class="subtitulos"> ID <span>&nbsp;</span> Tareas</h4>
+                    <ul id="tareas" class="subtitulos"> </ul>
+                </div>
+        </div>
+    </section>
+
+    <script src="./asset/js/script.js"></script>
+</body>
+</html>
